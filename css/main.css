@@ -127,6 +127,11 @@ h3::selection {
              Global
 *******************************/
 
+
+.introduction h1 {
+    font-family: 'Lobster Two', cursive;
+}
+
 html,
 body {
   font-size: 15px;
