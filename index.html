@@ -19,7 +19,7 @@
         <![endif]-->
 
         <div class="ui fixed transparent inverted main menu">
-			<div class="container" data-700="margin-top: 25px;" data-0="margin-top: 0">
+			<div class="container">
 				<div class="right menu">
 
 				<div class="ui link item">
@@ -59,14 +59,14 @@
 				<div class="ui page grid">
 					<div class="column">
 						<div class="introduction">
-							<h1 data-0="left: 0%" data-400="left: -100%" class="ui header">
+							<h1 class="ui header">
                                 <img src="img/logo.png" width="95" />
                                 CSBill - Easy Invoicing
                             </h1>
-							<h2 data-0="right: 0%" data-400="right: -150%" class="ui header">Manage clients, invoices, quotes and much more!</h2>
-							<p data-0="right: 0%" data-400="right: -150%">CSBill is an open-source application that allows you to manage clients and contacts and send invoices and quotes.</p>
+							<h2 class="ui header">Manage clients, invoices, quotes and much more!</h2>
+							<p>CSBill is an open-source application that allows you to manage clients and contacts and send invoices and quotes.</p>
 
-							<div class="ui buttons big" data-280="top: 185px" data-700="opacity: 1; top: -100px">
+							<div class="ui buttons big">
 								<a class="ui blue button" href="https://github.com/CSBill/CSBill/releases"><i class="download cloud icon"></i> Download</a>
 								<div class="or"></div>
 								<a class="ui green button" href="https://github.com/CSBill/CSBill">View Source <i class="github icon right"></i></a>
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 
-			<section data-0="position: fixed;" data-200="top: 390px" data-700="top: 55px" data-1200="top: 55px" data-1900="top: -70px" data-1700="top: 55px" class="ui intro segment">
+			<section class="ui intro segment">
                 <div class="ui stackable very relaxed center aligned grid container">
                     <div class="row">
                         <div class="twelve wide column">
@@ -93,13 +93,13 @@
                 </div>
 			</section>
 
-			<section data-0="position: fixed;" data-200="top: 390px" data-700="top: 55px" data-1200="top: 55px" data-1900="top: -70px" data-1700="top: 55px" class="ui intro segment">
+			<section class="ui intro segment">
                 <h2 class="ui dividing header">
                     <i class="circular book icon"></i>
                     Features
                 </h2>
 
-                <div class="stackable very relaxed ui grid container" data-0="position: fixed;" data-200="top: 490px" data-700="top: 140px" data-1900="top: -1300px">
+                <div class="stackable very relaxed ui grid container">
                     <div class="row">
                         <div class="nine wide column">
                             <img src="img/clients.png" class="ui fluid image rounded img-thumbnail" alt="Clients" />
@@ -268,7 +268,7 @@
                 </div>
 			</section>
 
-			<section data-0="position: fixed; top: 2400px" data-1900="top: 55px" class="ui segment">
+			<section class="ui segment">
                 <h2 class="ui dividing header">
                     <i class="circular book icon"></i>
                     NewsLetter
@@ -292,7 +292,7 @@
                 </div>
 			</section>
 
-            <footer data-0="position: fixed; top: 2000px" data-1915="top: 275px" class="ui segment">
+            <footer class="ui segment">
                 <div class="ui grid">
                     <div class="eight wide column">
                         <a class="twitter-timeline" href="https://twitter.com/CSBillApp" data-widget-id="491299003456188418">Tweets by @CSBillApp</a>
@@ -346,16 +346,13 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 
         <script type="text/javascript">
-			//skrollr.init();
-
             $(function(){
                 $('#features').on('click', function(event){
                     event.preventDefault();
-                    $(document).scrollTo(700/*, {duration: 1000}*/);
+                    $(document).scrollTo(675, {duration: 1000});
                 });
             });
 		</script>
