@@ -128,9 +128,9 @@ h3::selection {
 *******************************/
 
 
-.introduction h1 {
+/*.introduction h1 {
     font-family: 'Lobster Two', cursive;
-}
+}*/
 
 html,
 body {
@@ -373,7 +373,7 @@ body.guide .main.container > * {
 #body .masthead {
   position: relative;
   overflow: hidden;
-  background-color: #00B5AD;
+  background-color: #009688;
   text-align: center;
   margin-top: 38px;
   padding: 50px 0px;
@@ -423,6 +423,21 @@ body.guide .main.container > * {
   -o-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+
+
+/**
+ UI OVERRIDES
+**/
+
+.ui.green.buttons .button, .ui.green.button {
+  background-color: #4caf50;
+}
+
+.ui.blue.buttons .button, .ui.blue.button {
+  background-color: #03a9f4;
+}
+
+
 @keyframes masthead {
  0% {
     background-position: 0% 0%;
@@ -567,6 +582,7 @@ body.guide .main.container > * {
   font-size: 1.75em;
   border-bottom: none;
   line-height: 1;
+  color: #FFFFFF;
 }
 #body .masthead .menu {
   width: 375px;
@@ -582,6 +598,23 @@ body.guide .main.container > * {
   margin-bottom: 1.5rem;
 }
 
+footer {
+  background: #009688 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+footer .header {
+  color: #FFFFFF !important;
+}
+
+.copyright {
+  color: #FFFFFF !important;
+}
+
+.stackable .row {
+  margin: 2em 0;
+}
 
 /*--------------
   Transparent
@@ -931,21 +964,6 @@ body.guide .main.container > * {
     border: 1px solid #DDD;
     transition: all .2s ease-in-out;
     background: #EEE !important;
-}
-
-.background-image {
-    background-size: 100% 350px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin-top: -50px;
-    -webkit-filter: opacity(0.6) blur(2px);
-    -moz-filter: opacity(0.6) blur(2px);
-    -o-filter: opacity(0.6) blur(2px);
-    -ms-filter: opacity(0.6) blur(2px);
-    filter: opacity(0.6) blur(2px);
-    background-image: -webkit-linear-gradient(left,     rgba(0,0,0,0.9) 0%,     rgba(0,0,0,0) 40%,    rgba(0,0,0,0) 80%,    rgba(0,0,0,0.9) 100%  ),  url(../img/dashboard.png);
-    margin-top: -55px !important;
 }
 
 .download-btn {
